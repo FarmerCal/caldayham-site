@@ -14,3 +14,8 @@ a {
 * {
   box-sizing: border-box;
 }
+
+hr.solid {
+  border-top: 1px solid rgb(214, 214, 214);
+  min-width: 100%;
+}
