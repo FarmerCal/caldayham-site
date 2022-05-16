@@ -10,14 +10,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Cal's Site</title>
+        <title>Cals Site</title>
         <meta name="description" content="a site about cal day ham" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to the initial commit of Cal's site!
+          Welcome to the initial commit of Cals site!
         </h1>
 
         <p className={styles.description}>
@@ -25,18 +25,18 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/" className={styles.card}>
+          <a href="https://www.linkedin.com/in/caldayham/" className={styles.card}>
             <h2>About &rarr;</h2>
             <p>Learn about me, my passions, stories, pets, family, and most things in between!</p>
           </a>
 
-          <a href="/" className={styles.card}>
+          <a href="https://www.linkedin.com/in/caldayham/" className={styles.card}>
             <h2>Portfolio &rarr;</h2>
             <p>See detailed archives of some of my favorite endevours! Projects, jobs, adventures, etc!</p>
           </a>
 
           <a
-            href="/"
+            href="https://www.linkedin.com/in/caldayham/"
             className={styles.card}
           >
             <h2>Thoughts &rarr;</h2>
@@ -44,7 +44,7 @@ export default function Home() {
           </a>
 
           <a
-            href="/"
+            href="https://www.linkedin.com/in/caldayham/"
             className={styles.card}
           >
             <h2>Contact &rarr;</h2>
@@ -61,16 +61,19 @@ export default function Home() {
           src={smilesShoulders}
           width='200'
             height='350'
+            alt='smilesShoulders'
         />
 <Image
           src={coolBois}
           width='200'
-          height='350'
+            height='350'
+            alt='coolBois'
         />
 <Image
           src={beachStand}
           width='200'
-          height='350'
+            height='350'
+            alt='beachStand'
         />
         </div>
       </main>
