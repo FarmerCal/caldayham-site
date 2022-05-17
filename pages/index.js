@@ -1,16 +1,12 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-
-import smilesShoulders from '../assets/IMG-6509.JPG';
-import coolBois from '../assets/IMG-6507.JPG';
-import beachStand from '../assets/IMG-6510.PNG';
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Cals Site</title>
+        <title>▹act▹solve▹distill▹</title>
         <meta name="description" content="a site about cal day ham" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -23,6 +19,11 @@ export default function Home() {
         <p className={styles.description}>
           <code className={styles.code}>this site is build statically for now with Next.js!</code>
         </p>
+        <Link href="/faq">
+          <a>
+            go to FAQ page
+          </a>
+        </Link>
 
         <div className={styles.grid}>
           <a href="https://www.linkedin.com/in/caldayham/" className={styles.card}>
@@ -57,24 +58,7 @@ export default function Home() {
         <hr className='solid' />
         
         <div className={styles.grid}>
-<Image
-          src={smilesShoulders}
-          width='200'
-            height='350'
-            alt='smilesShoulders'
-        />
-<Image
-          src={coolBois}
-          width='200'
-            height='350'
-            alt='coolBois'
-        />
-<Image
-          src={beachStand}
-          width='200'
-            height='350'
-            alt='beachStand'
-        />
+
         </div>
       </main>
 
